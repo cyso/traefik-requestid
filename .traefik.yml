@@ -1,0 +1,8 @@
+displayName: Request ID Injector
+type: middleware
+import: github.com/cyso/traefik-requestid
+summary: Adds a unique X-Request-ID header to every request if one is not already present.
+testData:
+  headerName: X-Request-ID
+  overrideExisting: false
+  forwardToResponse: true
